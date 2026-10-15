@@ -51,7 +51,7 @@ const clientUrl = "https://draw-ai-ankit.vercel.app/";
 
 const io = new Server(httpServer, {
   cors: {
-    origin: clientUrl,
+    origin: '*',
     methods: ["GET", "POST"],
   },
 });

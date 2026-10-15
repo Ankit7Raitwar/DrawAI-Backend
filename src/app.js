@@ -9,7 +9,7 @@ const clientUrl = "https://draw-ai-ankit.vercel.app/";
 
 app.use(
   cors({
-    origin: clientUrl,
+    origin: '*',
     methods: ["GET", "POST"],
   })
 );
