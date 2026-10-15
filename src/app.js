@@ -4,8 +4,8 @@ import roomRoutes from "./routes/roomRoutes.js";
 
 const app = express();
 
-const clientUrl =
-  process.env.CLIENT_URL || "http://localhost:5173";
+const clientUrl = "https://draw-ai-ankit.vercel.app/";
+  // process.env.CLIENT_URL || "https://draw-ai-ankit.vercel.app/";
 
 app.use(
   cors({

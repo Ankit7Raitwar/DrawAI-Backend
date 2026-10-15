@@ -46,8 +46,8 @@ dotenv.config({
 
 const httpServer = createServer(app);
 
-const clientUrl =
-  process.env.CLIENT_URL || "http://localhost:5173";
+const clientUrl = "https://draw-ai-ankit.vercel.app/";
+  // process.env.CLIENT_URL || "http://localhost:5173";
 
 const io = new Server(httpServer, {
   cors: {
